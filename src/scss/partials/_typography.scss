@@ -1,0 +1,24 @@
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.2rem;
+  margin: 0.25rem 0;
+}
+h3 {
+  font-size: 0.75rem;
+  font-family: 'radikalthin';
+}
+
+@include breakpoint(medium) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  h3 {
+    font-size: 0.875rem;
+  }
+}
